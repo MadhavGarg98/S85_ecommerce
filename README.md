@@ -3,6 +3,9 @@
 E-Commerce Platform
 A full-stack e-commerce platform that is built with the MERN stack, which includes MongoDB, Express.js, React, and Node.js. The platform provides seamless product management, secure user authentication, and order handling using RESTful APIs.
 
+Learning Outcomes Understand the structure of a MERN stack project. Set up project repositories and foundational tools. Master core functionalities: User authentication. Product and order management. Database schema design. Core Concepts REST API Design: Create endpoints for users, products, and orders. MongoDB Schema: Design meaningful and structured data models. Authentication: Implement secure login and registration systems. Backend Development: Use Node.js and Express for robust server-side APIs.
+
+
 Key Features:
 
 1.)Product Management
