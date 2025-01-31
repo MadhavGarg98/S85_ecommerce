@@ -20,7 +20,8 @@ How to structure a full-stack project.
 Setting up a React application with Tailwind CSS.
 Configuring a Node.js backend.
 Creating a login page with basic styling and functionality.
-✅ Submission Details
+<br>
+# ✅ Submission Details
 Code is pushed to the GitHub repository created in Milestone 1.
 The repository includes:
 Proper folder structure (frontend & backend).
