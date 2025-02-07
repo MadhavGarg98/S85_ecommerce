@@ -6,3 +6,4 @@ export
     LoginPage,
     SignUpPage
 }
+
