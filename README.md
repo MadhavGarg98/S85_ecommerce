@@ -1,65 +1,10 @@
-# S85_ecommerce
+This milestone focused on securely handling user registration on the backend, including the crucial step of password encryption. This is essential for protecting user data and maintaining security best practices.
 
-# eCommerce Website - Milestone 5
+Milestone 7: Backend Login Endpoint and Password Validation 🚀
+✅ Login Endpoint Implementation Created a backend route to handle user login. Accepted user credentials (email/username and password) from the frontend.
 
-## Overview
-This milestone marks significant progress in the development of the eCommerce website. Key features have been implemented, improving both functionality and user experience. This document provides details on the work completed, technologies used, and setup instructions.
+✅ User Authentication Process Retrieved the corresponding user from the database using the provided email. If the user does not exist, returned an error: "User does not exist." Used bcrypt.compare to compare the entered password with the stored hashed password. If the passwords matched, authenticated the user and proceeded to login. If they did not match, returned an authentication error.
 
-## Features Implemented
-- **User Signup & Authentication**: Secure user registration and login system.
-- **Product Listings & Categories**: Users can browse products sorted into categories.
-- **Checkout Process**: Integrated payment gateway and order confirmation.
-- **Admin Panel**: Allows product management, order tracking, and user management.
-- **UI Enhancements**: Improved navigation, responsiveness, and user-friendly design.
+✅ Security Measures Ensured that passwords were stored as hashes using bcrypt to maintain security. Handled potential security vulnerabilities, such as brute-force attacks.
 
-## Technologies Used
-- **Frontend**: React.js / Next.js (or your choice of framework)
-- **Backend**: Node.js / Express.js (or any backend stack used)
-- **Database**: MongoDB / MySQL / PostgreSQL
-- **Authentication**: JWT / OAuth
-- **Payment Gateway**: Stripe / PayPal Integration
-- **Hosting & Deployment**: AWS / Firebase / Vercel / Netlify
-
-## Installation & Setup
-### Prerequisites
-- Node.js installed
-- Database setup (MongoDB, MySQL, or PostgreSQL)
-- Stripe/PayPal API keys (if applicable)
-
-### Steps
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo-url.git
-   cd ecommerce-project
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Setup environment variables:
-   Create a `.env` file and add necessary credentials (database, API keys, etc.).
-   ```env
-   DATABASE_URL=your-database-url
-   JWT_SECRET=your-secret-key
-   STRIPE_API_KEY=your-stripe-key
-   ```
-4. Start the development server:
-   ```sh
-   npm run dev
-   ```
-5. Open your browser and go to:
-   ```
-   http://localhost:3000
-   ```
-
-## Next Steps
-- Implement order history for users
-- Optimize performance and SEO
-- Enhance security measures
-- Expand product filters and search functionality
-
-## Contributing
-If you’d like to contribute, feel free to fork the repository and submit a pull request.
-
-## License
-This project is licensed under [MIT License](LICENSE).
+✅ README Update Documented Milestone 7 progress in this README file. This milestone introduced the backend authentication process, enabling users to log in securely by verifying their credentials against stored, encrypted passwords. This is crucial for maintaining data security and user authentication in the application.
