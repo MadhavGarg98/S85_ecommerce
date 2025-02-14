@@ -1,14 +1,11 @@
-## Milestone 9: Product Input Form 🚀
+## Milestone 10: Product Schema and API Endpoint 🚀
 
-### ✅ *Product Form Implementation*
-- Designed a form for adding product details such as name, price, and description.
-- Implemented an option for uploading multiple product images.
+### ✅ Product Schema Implementation
+- Defined a *Product Schema* in Mongoose.
+- Implemented validation for fields like name, price, and image URL.
 
-### ✅ *Database Integration*
-- Structured the form to send product data to the backend for storage in MongoDB.
-- Ensured proper validation and error handling.
+### ✅ API Endpoint for Adding Products
+- Created a *POST* endpoint to store product details in MongoDB.
+- Ensured proper validation before saving the data.
 
-### ✅ *README Update*
-- Documented Milestone 9 progress in this README file.
-
-This milestone focused on enabling product input, which is essential for expanding the e-commerce platform by allowing users to add new products dynamically.
+---
