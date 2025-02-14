@@ -1,3 +1,4 @@
+
 # Follow Along E-Commerce Website
 
 ## Key Features
@@ -125,6 +126,7 @@
 
 ## Milestone 11: Dynamic Product Display 🚀
 
+
 ### ✅ Fetching Product Data
 - Created an endpoint to retrieve all stored products from MongoDB.
 - Implemented API call logic in the frontend to fetch data dynamically.
@@ -133,6 +135,3 @@
 - Passed fetched product data to the Product Card component.
 - Rendered product information dynamically on the homepage.
 
----
-
-This README documents the progress of our e-commerce project, covering all key milestones and functionalities implemented so far. 🚀
