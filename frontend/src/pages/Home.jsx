@@ -16,12 +16,11 @@ export default function Home() {
         return res.json();
       })
       .then((data) => {
-        console.log(data)
         setProducts(data.products);
         setLoading(false);
       })
       .catch((err) => {
-        console.error("❌ Error fetching products:", err);
+        console.error(" Error fetching products:", err);
         setError(err.message);
         setLoading(false);
       });

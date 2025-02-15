@@ -12,7 +12,8 @@ const App = () => {
       <Route path="/sign-up" element={<SignUpPage/>} />
       <Route path="/activation/:activation_token" element={<ActivationPage />} />
       <Route path='/create-product' element={<CreateProduct/>}/>
-      <Route path="/myproducts" element={<MyProducts/>} />
+      <Route path="/create-product/:id" element={<CreateProduct />} />
+      <Route path="/my-products" element={<MyProducts/>} />
     </Routes>
     </BrowserRouter>
     
