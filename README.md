@@ -1,11 +1,16 @@
-## Milestone 11: Dynamic Product Display 🚀
+# Milestone 15: Navbar Component 🚀  
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+## ✅ Creating the Navbar Component  
+- Designed a `Nav` component with links to key pages:  
+  - 🏠 Home  
+  - 📦 My Products  
+  - ➕ Add Product  
+  - 🛒 Cart  
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+## ✅ Making the Navbar Responsive  
+- Ensured the Navbar adapts to all screen sizes.  
+- Implemented a mobile-friendly design with a collapsible menu.  
 
----
+## ✅ Reusing the Navbar Across Pages  
+- Added the `Nav` component to all application pages.  
+- Ensured smooth and intuitive navigation between different sections.  
