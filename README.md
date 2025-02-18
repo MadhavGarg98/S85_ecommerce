@@ -1,11 +1,12 @@
-## Milestone 11: Dynamic Product Display 🚀
+# Milestone 16: Product Info Page 🚀  
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+## ✅ Creating the Product Info Page  
+- Designed a `Product Info` page to display detailed product information.  
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+## ✅ Adding Quantity Selection and Cart Button  
+- Implemented a **Quantity Selector** to allow users to choose the desired quantity.  
+- Added an **Add to Cart** button to facilitate easy product purchase.  
 
----
+## ✅ Dynamic Data Rendering  
+- Integrated **backend API calls** to fetch and display product details dynamically.  
+- Ensured the page updates based on the selected product.  
