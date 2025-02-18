@@ -1,11 +1,11 @@
-## Milestone 11: Dynamic Product Display 🚀
+## Milestone 14: Deleting Products 🚀
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
-
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
-
----
+### ✅ Backend Delete Endpoint
+- Created an endpoint to delete a product by its ID from MongoDB.
+- Implemented logic to find the product and remove it from the database.
+### ✅ Frontend Delete Button
+- Added a Delete button to each product card.
+- When clicked, it sends the product ID to the server endpoint for deletion.
+### ✅ Updating UI After Deletion
+- Ensured the product is removed from the frontend dynamically after successful deletion.
+- Implemented confirmation prompts before deletion for better user experience.
