@@ -36,4 +36,4 @@ app.use("/api/v2/product", productRoutes);
 // Error Handling Middleware
 app.use(ErrorHandler);
 
-module.exports = app;
+module.exports = app; 
