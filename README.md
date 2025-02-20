@@ -1,11 +1,15 @@
-## Milestone 11: Dynamic Product Display 🚀
+### **Milestone 19: Cart Page UI & Quantity Management**  
+- ✅ **Frontend Cart Page**  
+  - Created a dedicated Cart Page UI to display products inside the cart.  
+  - Integrated the frontend with the backend endpoint from Milestone 18 to fetch cart items.  
+- ✅ **Quantity Management**  
+  - Implemented `+` (increase) and `-` (decrease) buttons for each cart product.  
+  - Users can modify product quantities dynamically.  
+- ✅ **Backend Endpoints for Quantity Update**  
+  - Created API endpoints to handle incrementing and decrementing the product quantity inside the cart.  
+  - Integrated these endpoints with the frontend.  
+- ✅ **Testing and Validation**  
+  - Ensured smooth UI interaction for increasing and decreasing quantities.  
+  - Tested API responses to validate quantity updates.  
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
-
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
-
----
+---  
