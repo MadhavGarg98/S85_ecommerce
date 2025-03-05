@@ -1,11 +1,12 @@
-## Milestone 11: Dynamic Product Display 🚀
+### Milestone 20: User Profile Page 🚀  
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ *Backend & API Integration*  
+- Created an endpoint to send **user profile data** (photo, name, email, and address).  
+- Implemented **authentication** and **error handling** for secure access.  
+- Integrated the frontend to fetch and display user details dynamically.  
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
-
----
+✅ *Frontend Profile Page*  
+- Designed a **Profile Page** displaying **profile photo, name, and email**.  
+- Added an **Address Section** with an **"Add Address"** button.  
+- Displayed **"No address found"** if no address is available.  
+- Ensured smooth **UI updates** when adding an address. 🚀  
