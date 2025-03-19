@@ -1,11 +1,15 @@
-## Milestone 11: Dynamic Product Display 🚀
+## Milestone 24: Order Summary Page 🛍️
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ Display Ordered Products
+- Listed all products the user is ordering.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+✅ Address Confirmation
+- Displayed the selected delivery address.
 
----
+✅ Cart Value Calculation
+- Showed the total value of the cart.
+
+✅ Place Order Button
+- Added a "Place Order" button at the bottom for final confirmation.
+
+
