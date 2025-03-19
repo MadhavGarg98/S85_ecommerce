@@ -296,3 +296,20 @@
 ✅ Backend API Implementation
 - Created an endpoint to fetch and send all saved addresses of the user.
 - Ensured authentication and proper error handling.
+
+## Milestone 24: Order Summary Page 🛍️
+
+✅ Display Ordered Products
+- Listed all products the user is ordering.
+
+✅ Address Confirmation
+- Displayed the selected delivery address.
+
+✅ Cart Value Calculation
+- Showed the total value of the cart.
+
+✅ Place Order Button
+- Added a "Place Order" button at the bottom for final confirmation.
+
+
+
