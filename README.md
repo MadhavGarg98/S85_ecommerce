@@ -1,11 +1,14 @@
-## Milestone 11: Dynamic Product Display 🚀
+## Milestone 23: Address Selection for Orders 🛒
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ Cart Page Enhancement
+- Added a "Place Order" button inside the cart page.
+- Navigated to the "Select Address" page when clicked.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+✅ Address Selection Page
+- Displayed all available addresses of the user.
+- Provided an option to select one address for the order.
 
----
+✅ Backend API Implementation
+- Created an endpoint to fetch and send all saved addresses of the user.
+- Ensured authentication and proper error handling.
+
