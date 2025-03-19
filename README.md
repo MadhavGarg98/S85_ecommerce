@@ -1,11 +1,12 @@
-## Milestone 11: Dynamic Product Display 🚀
+## Milestone 22: Address API Integration 🌐
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ Backend Endpoint Implementation
+- Created an API endpoint to receive the address from the frontend.
+- Validated and stored the address in the `address` array inside the user collection.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+✅ Database Integration
+- Updated the user schema to ensure multiple addresses can be stored.
+- Implemented authentication and error handling for secure address updates.
 
----
+Now, users can add their address, and it will be stored successfully! 🚀
+
