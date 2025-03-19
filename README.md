@@ -1,11 +1,15 @@
-## Milestone 11: Dynamic Product Display 🚀
+Milestone 21: Address Form Page 🏠
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ Address Form Implementation
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+Created an Address Form Page with input fields for address, city, state, and ZIP code.
 
----
+Used useState to manage the address input dynamically.
+
+✅ Navigation & Integration
+
+Added an "Add Address" button in the Profile Page.
+
+Configured routing to navigate from Profile Page to Address Form Page.
+
+Updated App.jsx to include the new route.
