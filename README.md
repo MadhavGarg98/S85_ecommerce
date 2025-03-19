@@ -1,11 +1,15 @@
-## Milestone 11: Dynamic Product Display 🚀
+## Milestone 27: My Orders Page 🛍️
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ My Orders Page
+- Created a "My Orders" page to display all user orders.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+✅ API Integration
+- Sent a GET request to the `my-orders` endpoint.
+- Passed the user's email to fetch all orders.
 
----
+✅ UI & Navigation
+- Displayed all user orders on the page.
+- Added "My Orders" to the navbar for easy access.
+
+Now, users can easily view their order history! 🚀
+
