@@ -22,7 +22,7 @@ const CreateAddress = () => {
             address2,
             zipCode,
             addressType,
-            email: "ashupatil1357@gmail.com"
+            email: "madhavgarg3300@gmail.com"
         };
 
         try {

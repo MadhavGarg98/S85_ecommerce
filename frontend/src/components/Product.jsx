@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function Product({ _id, name, images, description, price }) {
+export default function Product({_id, name, images, description, price}) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const navigate = useNavigate();
 

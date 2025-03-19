@@ -1,4 +1,4 @@
-export default function Product({
+export default function AddressCard({
 	_id,
 	country,
 	city,
