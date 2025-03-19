@@ -1,11 +1,10 @@
-## Milestone 11: Dynamic Product Display 🚀
+## Milestone 26: Fetch User Orders API 📦
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ Order Retrieval Endpoint
+- Created an endpoint to receive the user’s email.
+- Retrieved the `_id` of the user using their email.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+✅ Fetch & Response
+- Used the `_id` to fetch all orders of the user from the database.
+- Sent all user orders in the API response.
 
----
