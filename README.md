@@ -1,11 +1,13 @@
-## Milestone 11: Dynamic Product Display 🚀
+### Milestone 28: Order Cancellation Feature 
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ My Orders Page
+- Added a Cancel Order button for active orders.
+- Hidden the button for canceled orders.
+  
+✅ API Implementation
+- Created an endpoint to cancel orders.
+- Updated order status to canceled in the database.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
-
----
+✅ UI Integration
+- Sent API request on button click.
+- Updated UI after successful cancellation.
