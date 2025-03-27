@@ -323,7 +323,7 @@
 - Stored each product as a separate order with the same address.
 - Used the existing Order schema to save order details in MongoDB.
 
-## Milestone 26: Fetch User Orders API 📦
+### Milestone 26: Fetch User Orders API 📦
 
 ✅ Order Retrieval Endpoint
 - Created an endpoint to receive the user’s email.
@@ -346,6 +346,20 @@
 - Displayed all user orders on the page.
 - Added "My Orders" to the navbar for easy access.
 
+
+### Milestone 28: Order Cancellation Feature 
+
+✅ My Orders Page
+- Added a Cancel Order button for active orders.
+- Hidden the button for canceled orders.
+  
+✅ API Implementation
+- Created an endpoint to cancel orders.
+- Updated order status to canceled in the database.
+
+✅ UI Integration
+- Sent API request on button click.
+- Updated UI after successful cancellation.
 
 
 
