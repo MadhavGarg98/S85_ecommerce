@@ -1,11 +1,12 @@
-## Milestone 11: Dynamic Product Display 🚀
+### Milestone 30: PayPal Integration 💳
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ PayPal Account Setup
+- Created a PayPal Developer account and a Sandbox account.
+- Retrieved and stored the Client ID.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
+✅ Implementation
+- Installed react-paypal-js.
+- Used PayPalScriptProvider to integrate PayPal payment options.
 
----
+✅ Testing
+- Verified transactions using the Sandbox environment.
