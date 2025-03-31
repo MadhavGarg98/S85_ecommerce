@@ -1,3 +1,4 @@
+
 # 🛒 Follow Along E-Commerce Website  
 
 ## 🚀 Key Features  
@@ -387,6 +388,4 @@
 
 ✅ Testing
 - Verified transactions using the Sandbox environment.
-
-
 
