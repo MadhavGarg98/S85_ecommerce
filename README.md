@@ -1,11 +1,8 @@
-## Milestone 11: Dynamic Product Display 🚀
+### Milestone 31: JWT Auth & Member CRUD 🔐
+✅ JWT Authentication
+- Implemented secure login and signup using JWT tokens.
+- Stored token in localStorage and protected member routes with auth middleware.
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
-
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
-
----
+✅ Member CRUD + UI Enhancements
+- Added full Create, Read, Update, Delete features for gym members.
+- Enhanced UI with field icons, top banner, and improved layout for better experience.
