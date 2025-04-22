@@ -1,11 +1,12 @@
-## Milestone 11: Dynamic Product Display 🚀
+### Milestone 33: JWT Authentication Setup 🔑
+✅ Install jsonwebtoken Package
+- Installed jsonwebtoken package via NPM: npm install jsonwebtoken.
+- Added it to the project to handle JWT generation.
 
-### ✅ Fetching Product Data
-- Created an endpoint to retrieve all stored products from MongoDB.
-- Implemented API call logic in the frontend to fetch data dynamically.
+✅ Generate and Set Expiry for JWT
+- Used sign() method from jsonwebtoken to create a token with email and ID.
+- Set maxAge to define the token's expiration time.
 
-### ✅ Displaying Products
-- Passed fetched product data to the Product Card component.
-- Rendered product information dynamically on the homepage.
-
----
+✅ Store Token in Response Cookie
+- Added the generated JWT to the response cookie.
+- Configured the cookie to be stored in the browser for subsequent requests.
