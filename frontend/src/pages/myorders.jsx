@@ -29,6 +29,8 @@ const MyOrdersPage = () => {
         try {
             // Example route patch / cancel might not exist in your code
             const response = await axios.patch(`/api/v2/orders/cancel-order/${orderId}`);
+console.log('Cancel response:', response.data);
+
             // Update local state or refetch
             fetchOrders();
         } catch (err) {
