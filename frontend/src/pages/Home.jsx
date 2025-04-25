@@ -9,8 +9,13 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    const token = localStorage.getItem("token"); // Or sessionStorage, depending on where you store it
     axios
-      .get("/api/v2/product/get-products")
+      .get("/api/v2/product/get-products", {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
       .then((res) => {
         setProducts(res.data.products);
         setLoading(false);
@@ -21,6 +26,7 @@ export default function Home() {
         setLoading(false);
       });
   }, []);
+  
 
   if (loading) {
     return <div className="text-center text-white mt-10">Loading products...</div>;
